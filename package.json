@@ -1,0 +1,30 @@
+{
+  "name": "bitmap-transformer",
+  "version": "0.0.1",
+  "description": "manipulates color of bitmap image",
+  "main": "bmp.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alemneh/Bitmap-Transformer.git"
+  },
+  "author": "alumneh asefa",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alemneh/Bitmap-Transformer/issues"
+  },
+  "homepage": "https://github.com/alemneh/Bitmap-Transformer#readme",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "gulp": "^3.9.1",
+    "gulp-eslint": "^2.0.0",
+    "gulp-mocha": "^2.2.0",
+    "gulp-watch": "^4.3.5",
+    "mocha": "^2.4.5"
+  }
+}
