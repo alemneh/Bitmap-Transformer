@@ -6,7 +6,7 @@ var files = ['gulpfile.js', 'bmp.js', '*.bmp', __dirname + '/lib/**/*.js', __dir
 
 //Run mocha for tests
 gulp.task('mocha', function() {
-  return gulp.src(__dirname + '/test/transform_test.js', {read: false})
+  return gulp.src(__dirname + '/test/transformer_test.js', {read: false})
              .pipe(mocha( {reporter: 'nyan'}));
 });
 
