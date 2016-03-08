@@ -10,4 +10,4 @@ var pixelArrayStart = bitmap.readUInt32LE(10);
 
 
 
-fs.writeFile(__dirname + '/paletteColors_bitmap_' + process.argv[3] + '.bmp', transformBmp(buffer, pixelArrayStart, palette, process.argv[3]));
+fs.writeFile(__dirname + '/bitmap_' + process.argv[3] + '.bmp', transformBmp(buffer, pixelArrayStart, palette, process.argv[3]));
